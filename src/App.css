@@ -2,3 +2,7 @@
   background-color: red;
   border: solid 1px #000;
 }
+
+.toggleButton {
+  background-color: #FFF;
+}
