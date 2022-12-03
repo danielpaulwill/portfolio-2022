@@ -4,7 +4,7 @@ function Projects() {
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6">
-          <div className="card">
+          <div className="card cardSpace">
             <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" class="card-img-top" alt="..."></img>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
