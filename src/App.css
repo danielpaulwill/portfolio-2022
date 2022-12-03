@@ -7,11 +7,6 @@
   background-color: #FFF;
 }
 
-.red {
-  background-color: red;
-  border: solid 1px black;
-}
-
 .menuButtonLeft {
   border-radius: 10px 0 0 10px;
 }
@@ -27,4 +22,19 @@
 .buttonMenu {
   text-align: center;
   margin: 5vh 0;
+  
+}
+
+
+
+
+
+.red {
+  background-color: red;
+  border: solid 1px black;
+}
+
+.blue {
+  background-color: blue;
+  border: solid 1px black;
 }
