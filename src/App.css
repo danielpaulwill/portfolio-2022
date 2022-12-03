@@ -22,7 +22,10 @@
 .buttonMenu {
   text-align: center;
   margin: 5vh 0;
-  
+}
+
+.btnSpace {
+  margin: 0 5px;
 }
 
 
