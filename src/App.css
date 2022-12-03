@@ -6,3 +6,25 @@
 .toggleButton {
   background-color: #FFF;
 }
+
+.red {
+  background-color: red;
+  border: solid 1px black;
+}
+
+.menuButtonLeft {
+  border-radius: 10px 0 0 10px;
+}
+
+.menuButtonMiddle {
+  border-radius: 0;
+}
+
+.menuButtonRight {
+  border-radius: 0 10px 10px 0;
+}
+
+.buttonMenu {
+  text-align: center;
+  margin: 5vh 0;
+}
