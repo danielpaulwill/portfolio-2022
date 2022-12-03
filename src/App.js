@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Contact';
 import Header from './Header';
 import Home from './Home';
 import Projects from './Projects';
@@ -8,7 +9,8 @@ function App() {
     <div>
       <Header />
       {/* <Home /> */}
-      <Projects />
+      {/* <Projects /> */}
+      <Contact />
     </div>
   );
 }
