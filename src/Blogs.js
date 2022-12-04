@@ -3,7 +3,7 @@ function Blogs() {
     <div>
       <div className="row containerSpace">
         <div className="col-md-2"></div>
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className="card blogCard">
             <img src="https://miro.medium.com/max/4800/1*oFRK2tGUfcspIPbHKHv7Jg.webp" className="card-img-top" alt="hand holding antique compass"></img>
             <div className="card-body">
@@ -14,41 +14,41 @@ function Blogs() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-2"></div>
+        <div className="col-md-3">
           <div className="card blogCard">
             <img src="https://miro.medium.com/max/1400/1*-mfhl49wJzgx0YfqqIJAPQ.webp" className="card-img-top" alt="..."></img>
             <div className="card-body">
               <h5 className="card-title">Rails Validations & Error Handling</h5>
+              <h6 class="card-subtitle mb-2 text-muted">4 min read</h6>
+              <p className="card-text">Imagine yourself going to the doctor. You walk up to the receptionist and explain that you’re a new patient and have an appointment...</p>
+              <a href="#" className="btn btn-dark">Read Article</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-2"></div>
+      </div>
+
+      <div className="row containerSpace">
+        <div className="col-md-2"></div>
+        <div className="col-md-3">
+          <div className="card blogCard">
+            <img src="..." className="card-img-top" alt="..."></img>
+            <div className="card-body">
+              <h5 className="card-title">The Benefits of Full Stack</h5>
+              <h6 class="card-subtitle mb-2 text-muted">4 min read</h6>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-2"></div>
+        <div className="col-md-3">
           <div className="card blogCard">
             <img src="..." className="card-img-top" alt="..."></img>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card blogCard">
-            <img src="..." className="card-img-top" alt="..."></img>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card blogCard">
-            <img src="..." className="card-img-top" alt="..."></img>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Working with APIs: Using Stand-In Data While Developing Your App</h5>
+              <h6 class="card-subtitle mb-2 text-muted">3 min read</h6>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
@@ -56,9 +56,19 @@ function Blogs() {
         </div>
         <div className="col-md-2"></div>
       </div>
-      <div className="row red">
-        
-      </div>
+
+
+        <div className="col-md-4">
+          <div className="card blogCard">
+            <img src="..." className="card-img-top" alt="..."></img>
+            <div className="card-body">
+              <h5 className="card-title">Rendering API Data to the DOM: Two Methods for Creating HTML Elements with JavaScript</h5>
+              <h6 class="card-subtitle mb-2 text-muted">4 min read</h6>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
