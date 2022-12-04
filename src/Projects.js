@@ -5,7 +5,8 @@ function Projects() {
         <div className="col-md-3"></div>
         <div className="col-md-6">
           <div className="card cardSpace">
-            <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" class="card-img-top" alt="..."></img>
+            <div class="card-header text-bg-danger">Deployed</div>
+            <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" class="" alt="..."></img>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

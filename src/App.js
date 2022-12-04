@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Header />
-      <Blogs />
+      {/* <Blogs /> */}
       {/* <Home /> */}
-      {/* <Projects /> */}
+      <Projects />
       {/* <Contact /> */}
     </div>
   );
