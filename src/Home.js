@@ -16,28 +16,28 @@ function Home() {
       <div className="row">
         <div className="col-md-2"></div>
         <div className="col-md-8">
-          <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+          <div id="carouselExampleCaptions" className="carousel carousel-dark slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div className="carousel-inner">
-              <div className="carousel-item active ">
+            <div className="carousel-inner bottomSpace">
+              <div className="carousel-item active" data-bs-interval="5000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/starbucks-preview.jpg" className="d-block w-100" alt="starbucks confidential"></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Starbucks Confidential</h5>
                   <p>An informational app that brings you the unlisted caffeine content of popular bottled Starbucks drinks.</p>
                 </div>
               </div>
-              <div className="carousel-item">
+              <div className="carousel-item" data-bs-interval="2000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/wayfarer-preview.jpg" className="d-block w-100" alt="wayfarer"></img>
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-none d-md-block outline">
                   <h5>Wayfarer: Journey to Understanding</h5>
                   <p>An 8-bit multiple choice mystery RPG with some shocking twists and turns.</p>
                 </div>
               </div>
-              <div className="carousel-item">
+              <div className="carousel-item" data-bs-interval="2000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/crypto-preview.jpg" className="d-block w-100" alt="crypto finder"></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>CryptoFinder</h5>

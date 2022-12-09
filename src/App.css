@@ -65,6 +65,15 @@ margin: 10px 0;
   margin: 10px 0;
 }
 
+.bottomSpace {
+  margin-bottom: 30px;
+}
+
+.outline {
+  color: #FFF;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF
+}
+
 
 
 
