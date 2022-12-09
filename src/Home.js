@@ -1,6 +1,5 @@
-
-
 function Home() {
+  
   return (
     <div>
       <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" className="img-fluid" alt="Daniel Williams"></img>
@@ -24,25 +23,25 @@ function Home() {
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" className="d-block w-100" alt="..."></img>
+              <div className="carousel-item active ">
+                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/starbucks-preview.jpg" className="d-block w-100" alt="starbucks confidential"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Starbucks Confidential</h5>
+                  <p>An informational app that brings you the unlisted caffeine content of popular bottled Starbucks drinks.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" className="d-block w-100" alt="..."></img>
+                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/wayfarer-preview.jpg" className="d-block w-100" alt="wayfarer"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                  <h5>Wayfarer: Journey to Understanding</h5>
+                  <p>An 8-bit multiple choice mystery RPG with some shocking twists and turns.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" className="d-block w-100" alt="..."></img>
+                <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/crypto-preview.jpg" className="d-block w-100" alt="crypto finder"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <h5>CryptoFinder</h5>
+                  <p>A cryptocurrency app that allows users to have the information they need to make informed investment decisions.</p>
                 </div>
               </div>
             </div>
