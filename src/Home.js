@@ -23,7 +23,7 @@ function Home() {
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner bottomSpace">
-              <div className="carousel-item active" data-bs-interval="5000" >
+              <div className="carousel-item active" data-bs-interval="4000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/starbucks-preview.jpg" className="d-block w-100" alt="starbucks confidential"></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Starbucks Confidential</h5>
