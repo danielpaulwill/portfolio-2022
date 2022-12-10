@@ -10,18 +10,11 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className='nav-link' aria-current='page' href='/'>Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href='projects'>Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="blogs">Blogs</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="contact">Contact</a>
-            </li>
+            <NavLink className='nav-link' to="/" >HOME</NavLink>
+            {/* <a className='nav-link active' aria-current='page' href='/'>Home</a> */}
+            <a className="nav-link" href='projects'>Projects</a>
+            <a className="nav-link" href="blogs">Blogs</a>
+            <a className="nav-link" href="contact">Contact</a>
           </ul>
           <form className="d-flex" role="search">
           </form>
