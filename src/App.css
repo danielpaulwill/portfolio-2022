@@ -30,6 +30,7 @@
 
 .cardSpace {
 margin: 10px 0;
+outline: solid #000 .2px;
 }
 
 .containerSpace {
@@ -56,7 +57,7 @@ margin: 10px 0;
   margin: 25px auto;
 }
 
-#contactText {
+.contactText {
   margin: 0 20px;
 }
 

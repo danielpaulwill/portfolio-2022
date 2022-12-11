@@ -6,10 +6,11 @@ function Home() {
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6 buttonMenu">
-          <button type="button" className="btn btn-outline-dark btn-lg menuButtonLeft">Projects</button>
-          <button type="button" className="btn btn-outline-dark btn-lg menuButtonMiddle">Blogs</button>
-          <button type="button" className="btn btn-outline-dark btn-lg menuButtonMiddle">Contact</button>
-          <button type="button" className="btn btn-outline-dark btn-lg menuButtonRight">Resume</button>
+          {/* <button type="button" className="btn btn-outline-dark btn-lg menuButtonLeft">Projects</button> */}
+          <a className="btn btn-outline-dark btn-lg menuButtonLeft" href="projects">Projects</a>
+          <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="blogs">Blogs</a>
+          <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="contact">Contact</a>
+          <a className="btn btn-outline-dark btn-lg menuButtonMiddle menuButtonRight" href="contact">Resume</a>
         </div>
         <div className="col-md-3"></div>
       </div>
@@ -25,7 +26,7 @@ function Home() {
             <div className="carousel-inner bottomSpace">
               <div className="carousel-item active" data-bs-interval="4000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/starbucks-preview.jpg" className="d-block w-100" alt="starbucks confidential"></img>
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-none d-md-block outline">
                   <h5>Starbucks Confidential</h5>
                   <p>An informational app that brings you the unlisted caffeine content of popular bottled Starbucks drinks.</p>
                 </div>
@@ -39,7 +40,7 @@ function Home() {
               </div>
               <div className="carousel-item" data-bs-interval="2000" >
                 <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/crypto-preview.jpg" className="d-block w-100" alt="crypto finder"></img>
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-none d-md-block outline">
                   <h5>CryptoFinder</h5>
                   <p>A cryptocurrency app that allows users to have the information they need to make informed investment decisions.</p>
                 </div>

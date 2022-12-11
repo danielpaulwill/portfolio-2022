@@ -24,7 +24,10 @@ function Contact() {
         <div className="col-md-3"></div>
         <div className="col-md-6">
           <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/1648213964487.jpeg" alt="portrait of Daniel Williams" id="contactPhoto"></img>
-          <p id="contactText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper, dui vel cursus aliquet, diam erat efficitur erat, eu sagittis urna mi at leo. Proin vel neque lobortis, consequat diam eget, tincidunt nisi. Vivamus porta dolor non mollis interdum. Sed elit arcu, gravida quis suscipit id, feugiat sed turpis. In sed ipsum felis. Aliquam erat volutpat. Aenean hendrerit pulvinar condimentum. Mauris dui nisl, eleifend non posuere eu, consequat sed nisi. Nam eleifend neque a arcu posuere semper.</p>
+          <p className="contactText">Daniel is a problem solver at heart. He has ten years of experience working in the marketing and creative industry. During Daniel’s time in commercial photography, he has excelled at fixing broken processes and eliminating wasted staff hours by creating style guides, establishing standards and best practices. Daniel is an expert at data management and quality assurance.</p>
+          <br></br>
+          <p className="contactText">He believes in consistently achieving excellence through organization, innovation, and keeping up with current and upcoming technology.</p>
+          <br></br>
         </div>
         <div className="col-md-3"></div>
       </div>
