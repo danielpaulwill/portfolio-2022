@@ -2,7 +2,9 @@ function Home() {
   
   return (
     <div>
-      <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/stretched.jpg" className="img-fluid" alt="Daniel Williams"></img>
+      <div id="row imgContainer">
+        <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/home-page-portrait.jpg" id="homeImg" alt="Daniel Williams"></img>
+      </div>
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6 buttonMenu">
@@ -10,7 +12,7 @@ function Home() {
           <a className="btn btn-outline-dark btn-lg menuButtonLeft" href="projects">Projects</a>
           <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="blogs">Blogs</a>
           <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="contact">Contact</a>
-          <a className="btn btn-outline-dark btn-lg menuButtonMiddle menuButtonRight" href="contact">Resume</a>
+          <a className="btn btn-outline-dark btn-lg menuButtonMiddle menuButtonRight" href="path_to_file" download="proposed_file_name">Resume</a>
         </div>
         <div className="col-md-3"></div>
       </div>
