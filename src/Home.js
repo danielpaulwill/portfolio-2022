@@ -2,9 +2,7 @@ function Home() {
   
   return (
     <div>
-      <div id="row imgContainer">
-        <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/home-page-portrait.jpg" id="homeImg" alt="Daniel Williams"></img>
-      </div>
+      <img src="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/home-page-portrait-wide.jpg" className="img-fluid" alt="Daniel Williams"></img>
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6 buttonMenu">

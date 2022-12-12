@@ -5,9 +5,15 @@ import Home from './Home';
 import Projects from './Projects';
 import Blogs from './Blogs';
 import Error from './Error';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, useNavigate, Route, Routes } from 'react-router-dom';
 
 function App() {
+
+  // const navigate = useNavigate()
+
+  // function homeClick() {
+  //   useNavigate('/')
+  // }
 
   return (
     <div>

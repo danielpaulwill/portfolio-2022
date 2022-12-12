@@ -79,19 +79,6 @@ outline: solid #000 .2px;
   text-align: center;
 }
 
-#homeImg {
-  max-width: 100%;
-  height: auto;  
-}
-
-#imgContainer {
-  /* max-height: 200px; */
-  background-color: red;
-  max-width: 100%;
-  height: auto;  
-}
-
-
 
 
 .red {

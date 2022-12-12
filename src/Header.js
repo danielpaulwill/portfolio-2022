@@ -1,4 +1,9 @@
-function Header() {
+// import { useNavigate } from 'react-router-dom'
+
+function Header({ homeClick }) {
+
+  // const navigate = useNavigate()
+
   return (  
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
@@ -9,7 +14,8 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {/* <NavLink className='nav-link' to="/" >HOME</NavLink> */}
-            <a className='nav-link active' active-current='page' href='/'>Home</a>
+            <a className='nav-link active' aria-current='page' href='/'>Home</a>
+            {/* <button className='nav-link active' aria-current='page' onClick={e => navigate('/')}>HOME</button> */}
             <a className="nav-link" href='projects'>Projects</a>
             <a className="nav-link" href="blogs">Blogs</a>
             <a className="nav-link" href="contact">Contact</a>
