@@ -10,7 +10,7 @@ function Home() {
           <a className="btn btn-outline-dark btn-lg menuButtonLeft" href="projects">Projects</a>
           <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="blogs">Blogs</a>
           <a className="btn btn-outline-dark btn-lg menuButtonMiddle" href="contact">Contact</a>
-          <a className="btn btn-outline-dark btn-lg menuButtonMiddle menuButtonRight" download="https://github.com/danielpaulwill/portfolio-2022/blob/main/src/assets/Daniel Williams Resume.pdf">Resume</a>
+          <a className="btn btn-outline-dark btn-lg menuButtonMiddle menuButtonRight" href="https://raw.githubusercontent.com/danielpaulwill/portfolio-2022/main/src/assets/Daniel-Williams-Resume.pdf" download>Resume</a>
         </div>
         <div className="col-md-3"></div>
       </div>
