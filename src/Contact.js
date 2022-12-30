@@ -30,7 +30,7 @@ function Contact() {
         </div>
         <div className="col-md-3"></div>
       </div>
-      <iframe src="https://calendly.com/danielpaulw/meet-with-daniel" width="100%" height="950" scrolling="no" frameborder="0"></iframe>
+      <iframe src="https://calendly.com/danielpaulw/meet-with-daniel" width="100%" height="950" scrolling="no" frameborder="0" title="meeting-schedule"></iframe>
     </div>
   );
 }
