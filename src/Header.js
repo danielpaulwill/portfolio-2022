@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, NavLink } from 'react-router-dom'
 
 function Header({ homeClick }) {
 
@@ -13,12 +13,10 @@ function Header({ homeClick }) {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            {/* <NavLink className='nav-link' to="/" >HOME</NavLink> */}
-            <a className='nav-link active' aria-current='page' href='/'>Home</a>
-            {/* <button className='nav-link active' aria-current='page' onClick={e => navigate('/')}>HOME</button> */}
-            <a className="nav-link" href='projects'>Projects</a>
-            <a className="nav-link" href="blogs">Blogs</a>
-            <a className="nav-link" href="contact">Contact</a>
+            <NavLink className='nav-link' to="/">Home</NavLink>
+            <NavLink className='nav-link' to="projects">Projects</NavLink>
+\           <NavLink className='nav-link' to="blogs">Blogs</NavLink>
+            <NavLink className='nav-link' to="contact">Contact</NavLink>
           </ul>
           <form className="d-flex" role="search">
           </form>
