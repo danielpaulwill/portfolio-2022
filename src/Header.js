@@ -1,8 +1,8 @@
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function Header({ homeClick }) {
 
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   return (  
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
